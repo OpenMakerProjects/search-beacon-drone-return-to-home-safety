@@ -1,0 +1,21 @@
+{
+  "id": 835,
+  "title": "Search Beacon Drone Return-to-Home Safety",
+  "repository_slug": "search-beacon-drone-return-to-home-safety",
+  "category": "Drones",
+  "platform": "Pixhawk + Raspberry Pi",
+  "platform_family": "python",
+  "difficulty": "Intermediate",
+  "estimated_hours": 32,
+  "connectivity": "Wi-Fi",
+  "components": [
+    "barometer",
+    "telemetry radio",
+    "payload servo"
+  ],
+  "scope": "Build a drones prototype that uses barometer, telemetry radio, payload servo to return safely on low battery or signal loss. Include setup instructions, a circuit diagram, tested firmware, and sample output.",
+  "key_deliverable": "Return-to-Home Safety demonstration with repeatable test steps",
+  "mode": "safety_latch",
+  "entrypoint": "src/main.py",
+  "roadmap_source": "openmaker-2100-project-roadmap.xlsx"
+}
